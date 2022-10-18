@@ -1,0 +1,43 @@
+correction des bugs du programme d'alex :
+
+
+correction des fautes d'orthographe dans le fichier Symptoms.txt :
+dialated et inflamation (dilated et inflammation)
+
+suppression des variables i et headCount ligne 17 et 18:
+variable inutile et redondante
+
+correction faute d'orthographe ligne 25 :
+rash au lieu de rush
+
+remplacement ligne 31 de line.contains("pupils") par line.equals("dilated pupils") pour avoir le compte exact
+
+ajout de reader.close(); ligne 35
+
+déplacement de la ligne 27 affichage du headacheCount, en dehors du while.
+
+inclusion du code dans un try catch
+
+retrait du throws exception de la fonction main
+
+retrait des commentaire pour l'initialisation des variables
+
+
+
+Réécriture du programme :
+
+
+
+création d'une classe CountSymptoms.
+
+ajout de la fonction getCount à la classe CountSymptoms pour compter le nombre d'occurence 
+d'un symptome dans le fichier.
+
+ajout de la fonction getCountMap pour faire un tableau avec chaque symptom et son nombre en supprimant les doublons.
+
+
+ajout de la classe WriteSymptomDataToFile pour ecrire dans un fichier, on créer le fichier si il n'existe pas.
+
+ajout de la fonction writeSymptom à la classe WriteSymptomDataToFile pour ecrire dans le fichier.
+
+ajout de la fonction closeWriter pour stoper l'écriture.

@@ -1,0 +1,11 @@
+
+E
+java:S1197"*Move the array designators [] to the type.(¡şÏÖøÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(”“î€
+V	java:S125"<This block of commented-out lines of code should be removed.(¡»¢üùÿÿÿÿ
+F
+java:S1068"1Remove this unused "headacheCount" private field.(Ú¿µQ
+H
+java:S1068"-Remove this unused "rashCount" private field.(‹ªœÃúÿÿÿÿ
+I
+java:S1068	".Remove this unused "pupilCount" private field.(ì¡†°ùÿÿÿÿ

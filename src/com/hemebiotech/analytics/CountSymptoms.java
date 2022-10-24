@@ -48,11 +48,7 @@ public class CountSymptoms {
         }
 
         return result;
-
     }
-
-
-
 
 
 }

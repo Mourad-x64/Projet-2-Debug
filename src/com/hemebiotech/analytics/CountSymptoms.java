@@ -1,8 +1,9 @@
 package com.hemebiotech.analytics;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Map;
+import java.util.TreeMap;
 
 /**
  * Counts the number of symptoms from a list
@@ -36,10 +37,11 @@ public class CountSymptoms {
      * @param symptoms the list of all symptoms from the file
      * @return a hashmap like {symptom : number}
      */
-    public static HashMap<String, Integer> getCountMap(ArrayList<String> symptoms){
-
+    public static Map<String, Integer> getCountMap(ArrayList<String> symptoms){
+        //on converti la liste en HashSet pour supprimer les doublons
         ArrayList<String> symptomsWithNoDuplicates = new ArrayList<>(new HashSet<>(symptoms));
-        HashMap<String, Integer> result = new HashMap<>();
+        //on transforme le resultat en TreeMap pour avoir l'ordre alphabétique
+        Map<String, Integer> result = new TreeMap<>();
 
         for(String symptom:symptomsWithNoDuplicates){
             result.put(symptom, getCount(symptom,symptoms));

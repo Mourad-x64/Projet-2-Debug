@@ -32,10 +32,10 @@ public class CountSymptoms {
     }
 
     /**
-     * transform the list of symptoms to a hashmap {symptom:number}
+     * transform the list of symptoms to a treemap {symptom:number}
      *
      * @param symptoms the list of all symptoms from the file
-     * @return a hashmap like {symptom : number}
+     * @return a treemap like {symptom : number}
      */
     public static Map<String, Integer> getCountMap(ArrayList<String> symptoms){
         //on converti la liste en HashSet pour supprimer les doublons

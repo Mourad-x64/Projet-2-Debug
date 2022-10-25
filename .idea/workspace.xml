@@ -3,7 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="9e90cef6-4572-4ef1-a91a-c9646e7a37c3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-2-Debug/com/hemebiotech/analytics/AnalyticsCounter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Projet-2-Debug/com/hemebiotech/analytics/AnalyticsCounter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projet-2-Debug/com/hemebiotech/analytics/CountSymptoms.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Projet-2-Debug/com/hemebiotech/analytics/CountSymptoms.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/fileReaderDebug/com/hemebiotech/analytics/AnalyticsCounter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/fileReaderDebug/com/hemebiotech/analytics/CountSymptoms.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/fileReaderDebug/com/hemebiotech/analytics/ISymptomReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/fileReaderDebug/com/hemebiotech/analytics/ReadSymptomDataFromFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/fileReaderDebug/com/hemebiotech/analytics/WriteSymptomDataToFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result.out" beforeDir="false" afterPath="$PROJECT_DIR$/result.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hemebiotech/analytics/AnalyticsCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hemebiotech/analytics/AnalyticsCounter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/hemebiotech/analytics/CountSymptoms.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hemebiotech/analytics/CountSymptoms.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hemebiotech/analytics/WriteSymptomDataToFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hemebiotech/analytics/WriteSymptomDataToFile.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,21 +48,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="js-tslint-nodeInterpreter" value="D:\outilsdev\node-v10.19.0\node.exe" />
-    <property name="js-tslint-package" value="$PROJECT_DIR$/../../../../../outilsdev\.npm\node_modules\tslint" />
-    <property name="js.buildTools.gulp.gulp_package_dir" value="D:\outilsdev\.npm\node_modules\gulp" />
-    <property name="js.buildTools.gulp.node_interpreter" value="D:\outilsdev\node-v10.19.0\node.exe" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="nodejs_interpreter_path" value="$PROJECT_DIR$/../../../../../outilsdev/node-v10.19.0/node" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
   <component name="RunManager" selected="Application.Java 8">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
@@ -60,47 +61,6 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
       <method />
-    </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
-    <configuration name="Java 8" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="com.hemebiotech.analytics.AnalyticsCounter" />
-      <module name="Projet-2-Debug" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration default="true" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="wildfly-18.0.1-final" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="$PROJECT_DIR$/../../../../../Outilsdev/jdk-11">
       <option name="UPDATING_POLICY" value="restart-server" />
@@ -161,6 +121,19 @@
           <option name="PROGRAM_PARAMETERS" value="" />
         </SHUTDOWN>
       </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Java 8" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.hemebiotech.analytics.AnalyticsCounter" />
+      <module name="Projet-2-Debug" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -249,6 +222,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -260,7 +242,6 @@
     </configuration>
     <list>
       <item itemvalue="Application.Java 8" />
-      <item itemvalue="JBoss/WildFly Server.wildfly-18.0.1-final" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -276,5 +257,27 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/hemebiotech/analytics/ReadSymptomDataFromFile.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -1,9 +1,6 @@
 package com.hemebiotech.analytics;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.Map;
-import java.util.TreeMap;
+import java.util.*;
 
 /**
  * Counts the number of symptoms from a list
@@ -18,8 +15,10 @@ public class CountSymptoms {
      * @param symptom the symptom we want to count
      * @param symptoms the list of all symptoms from the file
      * @return the number of occurrences of a symptom in the file
+     *
      */
-    public static int getCount(String symptom, ArrayList<String> symptoms){
+    @Deprecated
+    private static int getCount(String symptom, ArrayList<String> symptoms){
         int count = 0;
 
         for(String symp : symptoms){
@@ -37,14 +36,21 @@ public class CountSymptoms {
      * @param symptoms the list of all symptoms from the file
      * @return a treemap like {symptom : number}
      */
-    public static Map<String, Integer> getCountMap(ArrayList<String> symptoms){
+    public static Map<String, Integer> getCountMap(List<String> symptoms){
         //on converti la liste en HashSet pour supprimer les doublons
-        ArrayList<String> symptomsWithNoDuplicates = new ArrayList<>(new HashSet<>(symptoms));
+        //ArrayList<String> symptomsWithNoDuplicates = new ArrayList<>(new HashSet<>(symptoms));
         //on transforme le resultat en TreeMap pour avoir l'ordre alphabétique
         Map<String, Integer> result = new TreeMap<>();
 
-        for(String symptom:symptomsWithNoDuplicates){
-            result.put(symptom, getCount(symptom,symptoms));
+
+        for(String symptom:symptoms){
+            Integer tmp = result.get(symptom);
+            if(tmp == null){
+                result.put(symptom, 1);
+            }else {
+                result.put(symptom, tmp+1);
+            }
+            //result.put(symptom, getCount(symptom,symptoms));
         }
 
         return result;

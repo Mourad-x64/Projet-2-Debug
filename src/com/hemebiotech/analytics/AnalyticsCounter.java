@@ -15,6 +15,7 @@ public class AnalyticsCounter {
         ArrayList<String> symptoms = readFile.GetSymptoms();
         Map<String, Integer> list = CountSymptoms.getCountMap(symptoms);
         WriteSymptomDataToFile writeFile = new WriteSymptomDataToFile("result.out");
+        //writeFile.write(list);
 
         for (Map.Entry<String, Integer> entry : list.entrySet()) {
             String text = "number of "+entry.getKey()+" : "+entry.getValue();

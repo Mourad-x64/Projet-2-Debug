@@ -36,16 +36,18 @@ public class WriteSymptomDataToFile {
 
     /**
      *
-     * @param text the text to write to the file
+     * @param symptom the text to write to the file
      */
-    public void writeSymptom(String text){
+    public void writeSymptom(String symptom){
         try{
-            writer.write(text + "\n");
+            writer.write(symptom + "\n");
         }catch (IOException e) {
             e.printStackTrace();
         }
 
     }
+
+    // rajouter une fonction write
 
     /**
      *

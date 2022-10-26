@@ -15,7 +15,7 @@ public class AnalyticsCounter {
         WriteSymptomDataToFile writeFile = new WriteSymptomDataToFile("result.out");
         writeFile.writeSymptoms(symptoms);
 
-
+        //affichage dans la console
         for (Map.Entry<String, Integer> entry : symptoms.entrySet()) {
             String symptom = "number of "+entry.getKey()+" : "+entry.getValue();
             System.out.println(symptom);

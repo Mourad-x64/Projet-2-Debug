@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e90cef6-4572-4ef1-a91a-c9646e7a37c3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/4/84de70f73d7f856e622e06521ab8e0aa409285f8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/4/b40daa193a616fd6ca625e6f8ea154b143d3225e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Projet-2-Debug/com/hemebiotech/analytics/AnalyticsCounter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Projet-2-Debug/com/hemebiotech/analytics/AnalyticsCounter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Projet-2-Debug/com/hemebiotech/analytics/CountSymptoms.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Projet-2-Debug/com/hemebiotech/analytics/CountSymptoms.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Projet-2-Debug/com/hemebiotech/analytics/WriteSymptomDataToFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Projet-2-Debug/com/hemebiotech/analytics/WriteSymptomDataToFile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result.out" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/hemebiotech/analytics/AnalyticsCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hemebiotech/analytics/AnalyticsCounter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/hemebiotech/analytics/CountSymptoms.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hemebiotech/analytics/CountSymptoms.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/hemebiotech/analytics/WriteSymptomDataToFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hemebiotech/analytics/WriteSymptomDataToFile.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

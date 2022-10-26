@@ -21,6 +21,7 @@ public class WriteSymptomDataToFile {
         this.fileName = fileName;
         try{
             File myFile = new File(fileName);
+
             if (myFile.createNewFile()) {
                 System.out.println("File created: " + myFile.getName());
             } else {

@@ -3,6 +3,7 @@ package com.hemebiotech.analytics;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.Map;
 
 
 /**
@@ -11,7 +12,6 @@ import java.io.IOException;
  */
 public class WriteSymptomDataToFile {
     private String fileName;
-    private FileWriter writer;
 
     /**
      *
@@ -26,8 +26,6 @@ public class WriteSymptomDataToFile {
             } else {
                 System.out.println("File already exists.");
             }
-
-            this.writer = new FileWriter (fileName);
         }catch (IOException e) {
             e.printStackTrace();
         }
@@ -35,29 +33,24 @@ public class WriteSymptomDataToFile {
     }
 
     /**
+     * Writes the symptoms to the file
      *
-     * @param symptom the text to write to the file
+     * @param symptoms the symptom map with count
      */
-    public void writeSymptom(String symptom){
+    public void writeSymptoms(Map<String, Integer> symptoms){
         try{
-            writer.write(symptom + "\n");
-        }catch (IOException e) {
-            e.printStackTrace();
-        }
+            FileWriter writer = new FileWriter (fileName);
+            for (Map.Entry<String, Integer> entry : symptoms.entrySet()) {
+                String symptom = "number of "+entry.getKey()+" : "+entry.getValue();
+                writer.write(symptom + "\n");
+            }
 
-    }
-
-    // rajouter une fonction write
-
-    /**
-     *
-     * close the writer
-     */
-    public void closeWriter(){
-        try{
             writer.close();
         }catch (IOException e) {
             e.printStackTrace();
         }
+
     }
+
+
 }

@@ -1,6 +1,5 @@
 package com.hemebiotech.analytics;
 
-import java.util.ArrayList;
 import java.util.Map;
 
 public class AnalyticsCounter {
@@ -12,18 +11,16 @@ public class AnalyticsCounter {
 
         //programme réécrit
         ReadSymptomDataFromFile readFile = new ReadSymptomDataFromFile("symptoms.txt");
-        ArrayList<String> symptoms = readFile.GetSymptoms();
-        Map<String, Integer> list = CountSymptoms.getCountMap(symptoms);
+        Map<String, Integer> symptoms = CountSymptoms.getCountMap(readFile.GetSymptoms());
         WriteSymptomDataToFile writeFile = new WriteSymptomDataToFile("result.out");
-        //writeFile.write(list);
+        writeFile.writeSymptoms(symptoms);
 
-        for (Map.Entry<String, Integer> entry : list.entrySet()) {
-            String text = "number of "+entry.getKey()+" : "+entry.getValue();
-            System.out.println(text);
-            writeFile.writeSymptom(text);
+
+        for (Map.Entry<String, Integer> entry : symptoms.entrySet()) {
+            String symptom = "number of "+entry.getKey()+" : "+entry.getValue();
+            System.out.println(symptom);
         }
 
-        writeFile.closeWriter();
 
         /*
         //Programme d'Alex corrigé
